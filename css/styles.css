@@ -60,12 +60,38 @@ header #navbar .nav-list .nav-item a:hover {
 /* Conteúdo Principal */
 
 main {
-    margin-top: 6rem
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 main #banner {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1200px;
     padding: 0 2rem;
     margin: 0 auto;
+}
+
+main #banner .banner-content .banner-content-title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+main #banner .banner-content .banner-content-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 500px;
+    margin-bottom: 38px;
+}
+
+main #banner .banner-content .banner-content-btn {
+    background-color: #00a8cc;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
 }
