@@ -56,3 +56,16 @@ header #navbar .nav-list .nav-item a:hover {
     color: #777;
     transition: 0.3s;
 }
+
+/* Conteúdo Principal */
+
+main {
+    margin-top: 6rem
+}
+
+main #banner {
+    display: flex;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
