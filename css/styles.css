@@ -98,6 +98,18 @@ main #banner .banner-content .banner-content-btn {
     text-decoration: none;
 }
 
+@media (max-width:920px) {
+    main #banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    main #banner .banner-content {
+        text-align: center;
+    }
+}
+
 /* Section Posts */
 
 section#posts {
@@ -151,4 +163,10 @@ section#posts {
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    #posts .posts-content .posts-cards {
+        flex-direction: column;
+    }
 }
