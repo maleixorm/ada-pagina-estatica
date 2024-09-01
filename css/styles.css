@@ -97,3 +97,58 @@ main #banner .banner-content .banner-content-btn {
     padding: 10px 20px;
     text-decoration: none;
 }
+
+/* Section Posts */
+
+section#posts {
+    margin-top: 5rem;
+    background-color: #edf7fa;
+    
+}
+
+#posts .posts-content {
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+#posts .posts-content .posts-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#posts .posts-content .posts-content-header .view-all-link {
+    text-decoration: none;
+    color: #00a8cc;
+}
+
+#posts .posts-content .posts-content-header .section-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+#posts .posts-content .posts-cards {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+#posts .posts-content .posts-cards .post-card {
+    background-color: #fff;
+    padding: 1.4rem;
+}
+
+#posts .posts-content .posts-cards .post-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+}
+
+#posts .posts-content .posts-cards .post-card span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
